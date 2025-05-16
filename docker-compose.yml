@@ -1,0 +1,7 @@
+version: '2.1'
+services:
+  argon-control:
+    build: .
+    privileged: true
+    labels:
+      io.balena.features.supervisor-api: '1'

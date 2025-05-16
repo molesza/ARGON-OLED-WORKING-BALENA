@@ -1,0 +1,22 @@
+[debug] new argv=[/mnt/c/balena-cli/balena,/snapshot/balena-cli/bin/run.js,push,g_myles_macaulay/argon-oled-base-image-test,--build] length=5
+Nonexistent flag: --build
+See more help with --help
+
+Error: Nonexistent flag: --build
+See more help with --help
+    at validateArgs (/snapshot/balena-cli/node_modules/@oclif/core/lib/parser/validate.js:10:19)
+    at validate (/snapshot/balena-cli/node_modules/@oclif/core/lib/parser/validate.js:207:5)
+    at Object.parse (/snapshot/balena-cli/node_modules/@oclif/core/lib/parser/index.js:20:35)
+    at async PushCmd.parse (/snapshot/balena-cli/node_modules/@oclif/core/lib/command.js:254:25)
+    at async PushCmd.run (/snapshot/balena-cli/build/commands/push/index.js:16:50)
+    at async PushCmd._run (/snapshot/balena-cli/node_modules/@oclif/core/lib/command.js:312:22)
+    at async Config.runCommand (/snapshot/balena-cli/node_modules/@oclif/core/lib/config/config.js:435:25)
+    at async run (/snapshot/balena-cli/node_modules/@oclif/core/lib/main.js:95:16)
+    at async /snapshot/balena-cli/build/app.js:78:13
+    at async Promise.all (index 2)
+
+For further help or support, visit:
+https://www.balena.io/docs/reference/balena-cli/#support-faq-and-troubleshooting
+
+
+[debug] Event tracking error: Timeout awaiting 'response' for 0ms
